@@ -1,0 +1,48 @@
+# Numpy
+numpy==1.26.4
+
+# OpenCV
+opencv-python==4.7.0.72
+
+# PyTorch et bibliothèques associées (compatibles avec facenet-pytorch)
+torch==2.2.1
+torchvision==0.17.1
+torchaudio==2.2.1
+facenet-pytorch==2.6.0
+
+# Transformers
+transformers==4.35.2
+
+# Reconnaissance vocale
+SpeechRecognition==3.10.0
+
+# Video processing
+moviepy==1.0.3
+
+# NLP et text summarization
+spacy==3.7.2
+sumy==0.11.0
+
+# Audio processing
+librosa==0.10.1
+soundfile>=0.12.1
+soxr>=0.3.2
+audioread>=2.1.9
+
+# Images
+Pillow==10.2.0
+matplotlib==3.7.2
+
+# Traduction
+deep-translator==1.11.4
+
+# Texte arabe
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+
+# Interactive Python
+ipython==8.18.1
+
+# Task queue
+celery==5.3.4
+redis==5.0.1

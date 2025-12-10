@@ -1,0 +1,25 @@
+{
+  "analysis": {
+    "analysis_method": "fallback",
+    "emotion": "neutre",
+    "emotion_confidence": "40.0%",
+    "topic": "général",
+    "topic_confidence": "40.0%"
+  },
+  "content": {
+    "original_text": "Transcription non disponible",
+    "preview": "Transcription non disponible"
+  },
+  "faces": {
+    "face_detection": "visages_détectés (12)"
+  },
+  "success": true,
+  "video_info": {
+    "duration": 52.7,
+    "file_name": "47d71581-39db-438a-b0b2-f9aad3bd0487_Construire_une_politique_arabe_hors_du_monde_arabe_ca_ne_marche_pas_declare_Macron_en_Tunisie.mp4",
+    "fps": 25,
+    "frames": 1318,
+    "quality": "SD",
+    "resolution": "640x360"
+  }
+}

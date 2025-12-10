@@ -1,0 +1,29 @@
+{
+  "analysis": {
+    "confidence": "36.4%",
+    "emotion": "ton sérieux ou préoccupé",
+    "emotion_confidence": "48.0%",
+    "faces": "visages_détectés (12 trouvés)",
+    "has_audio": true,
+    "has_speech": true,
+    "method": "nlp_zero_shot (facebook/bart-large-mnli)",
+    "summary": "Vidéo divertissement avec un ton ton sérieux ou préoccupé",
+    "topic": "divertissement"
+  },
+  "content": {
+    "english_translation": "Échec de l'extraction audio: [WinError 2] Le fichier spécifié est introuvable",
+    "original_text": "Échec de l'extraction audio: [WinError 2] Le fichier spécifié est introuvable",
+    "preview": "Échec de l'extraction audio: [WinError 2] Le fichier spécifié est introuvable"
+  },
+  "success": true,
+  "video_info": {
+    "duration": 52.7,
+    "file_name": "d0142017-bd8f-423c-8240-9dc42fd4decf_Construire_une_politique_arabe_hors_du_monde_arabe_ca_ne_marche_pas_declare_Macron_en_Tunisie.mp4",
+    "fps": 25,
+    "frames": 1318,
+    "has_audio": true,
+    "language": "français",
+    "quality": "SD",
+    "resolution": "640x360"
+  }
+}

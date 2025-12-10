@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Analyzer AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+
+        <!-- Section 1: Page d'accueil -->
+        <section id="home-section" class="page-section">
+            <div class="hero-content">
+                <div class="video-icon"><i class="fas fa-play"></i></div>
+                <h1>Video Analyzer AI</h1>
+                <p>
+                    Plateforme révolutionnaire d'analyse vidéo basée sur le NLP, dotée de fonctionnalités avancées de détection de contenu, de reconnaissance faciale, de transcription vocale et d'analyse de sentiments à l'aide d'une technologie d'IA de pointe.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item"><i class="fas fa-brain"></i> AI Analysis</div>
+                    <div class="feature-item"><i class="fas fa-user-circle"></i> Face Detection</div>
+                    <div class="feature-item"><i class="fas fa-microphone-alt"></i> Speech AI</div>
+                    <div class="feature-item"><i class="far fa-smile"></i> Sentiment</div>
+                </div>
+                <button id="start-analysis-btn" class="cta-button">
+                    <i class="fas fa-rocket"></i> Start AI Video Analysis <i class="fas fa-arrow-right"></i>
+                </button>
+                <div class="security-info">
+                    <i class="fas fa-shield-alt"></i> Secure • Fast • Accurate AI Processing
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Upload de la vidéo -->
+        <section id="upload-section" class="page-section">
+            <div class="upload-box">
+                <div class="video-icon"><i class="fas fa-video"></i></div>
+                <h2>AI Video Analyzer</h2>
+                <p>Téléchargez votre vidéo pour débloquer de puissantes informations grâce au traitement NLP avancé.</p>
+                
+                <!-- NOUVEAU: Lecteur vidéo pour l'aperçu, caché par défaut -->
+                <video id="video-preview" controls muted style="display: none;"></video>
+
+                <form id="video-upload-form" method="post" enctype="multipart/form-data">
+                    <div class="drop-zone" id="drop-zone">
+                        <div class="drop-zone-content">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Déposez votre vidéo ici</p>
+                            <span>ou cliquez pour parcourir</span>
+                            <input type="file" name="video_file" id="video_file" accept="video/mp4,video/avi,video/mov,video/mkv" hidden>
+                        </div>
+                    </div>
+                    <div class="file-info">Supports: MP4, AVI, MOV, MKV • Max 100MB</div>
+                </form>
+                 
+                <div id="loading-message" style="display: none;">
+                    <div class="loader"></div>
+                    <p id="status-text">Analyse en cours, veuillez patienter...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Affichage des résultats (maintenant vide, sera remplie par JavaScript) -->
+        <section id="results-section" class="page-section"></section>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
